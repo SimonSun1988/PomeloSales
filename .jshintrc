@@ -1,0 +1,19 @@
+{
+	"node": true,
+
+	//"maxparams": 4,
+	"maxdepth": 4,
+	"maxstatements": 15,
+	"maxcomplexity": 6,
+	"globals": {
+		/* MOCHA */
+		"describe"		: false,
+		"it"			: false,
+		"before"		: false,
+		"beforeEach"	: false,
+		"after"			: false,
+		"afterEach"		: false,
+		"async"			: false,
+		"models"		: false
+	}
+}
